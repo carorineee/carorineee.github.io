@@ -1,0 +1,144 @@
+body {
+	font-family: Bitter;
+}
+#headcontent {
+	text-align: center;
+	color: #F5F0FF;
+	padding: 16.5%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+#headcontent h1 {
+	font-family: Montserrat;
+	/*text-shadow: None;*/
+	font-weight: 700;
+	font-size: 5em;
+}
+hr {
+	width: 96%;
+	/*border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);*/
+}
+.page-scroll {
+	font-family: Montserrat;
+	color: #F5F0FF;
+	font-size: 1.75rem;
+}
+
+.container {
+	height: 64rem;
+}
+#arrowdown {
+	/*color: black;*/
+}
+
+/*A Bit About Me*/
+#photoofme {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin-bottom: 2rem;
+	border: 1px solid #ccc;
+	box-shadow: 0px 3px 3px 0 #ccc;
+}
+#about-me-content {
+	text-align: center;
+	padding: 5%;
+}
+#about-me-content h2 {
+	font-family: Montserrat;
+	font-weight: 400;
+	font-size: 5rem;
+	/*color: #F5F0FF;*/
+}
+#about-me-content p {
+	font-size: 3rem;
+}
+
+/*Skills*/
+#section-skills h2 {
+	font-family: Montserrat;
+	font-weight: 400;
+	font-size: 5rem;
+	color: #130C21;
+}
+#section-skills hr {
+	color: #130C21;
+	font-weight: bold;
+}
+#section-skills .container {
+	height: 40rem;
+}
+#section-skills .text-primary {
+	color: #EBEBEB;
+}
+
+/*Navbar*/
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+.navbar li { color: #000 } 
+
+/*Button*/
+.btn {
+    padding: 14px 24px;
+    border-width: 2px;
+    /*border: none;*/
+    /*border-color: #2961D9;*/
+    /*border-color: #F5F0FF;*/
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    /*box-shadow: 1px 1px 2px black;*/
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-primary {
+    background: #0099cc;
+    color: #ffffff;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+/*Sections*/
+#head {
+	background-image: url(images/bg2.jpg);
+	background-size: cover;
+}
+#section-about {
+	background-image: url(images/agsquare.png);
+	/*background-size: cover;*/
+}
+#section-skills {
+	/*background-color: #059AF7;*/
+	background-image: url(images/pentagon.png);
+	text-align: center;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+#section-contact {
+	background-color: black;
+}
+
+/*Footer*/
+footer .container {
+	height: 30rem;
+	padding: 3%;
+}
+
+
