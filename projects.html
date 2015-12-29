@@ -6,14 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Projects</title>
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/projects.css">
+    <link rel = "icon" type = "image/png"
+    href = "http://i.ytimg.com/vi/r97Z1Gx2KM4/hqdefault.jpg">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Bitter:400,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
    
   </head>
   <body>
-      <section class = "main">
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html">
+                    <i class="fa fa-home"></i>  <span class="light">Home</span>
+                </a>
+            </div>
+             <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#section-contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+      </nav>
+
+
+    <section class = "main">
+      <div class="container">
     <h1>Projects</h1>
 
     <div class="votebot">
@@ -39,11 +80,12 @@
       <!--Insert photos! -->
       <img src="">
     </div>
-
+    </div>
   </section>
 
 
   <section class="main">
+    <div class="container">
     <h1>Skills</h1>
     <div class="languages">
       <h3>Languages</h3>
@@ -56,10 +98,12 @@
         <li>Javascript (currently learning)</li>
       </ul>
     </div>
+    </div>
   </section>
     
     <!-- Two main sections?? -->
   <section class="main">
+    <div class="container">
     <h1>Organizations</h1>
     <div class="MAD">
       <h3>MAD: Mobile App Development (September 2015 - present)</h3>
@@ -67,8 +111,37 @@
       <p>Mobile App Development is an organization at UT that aims to help students interested in app and web development. They host weekly workshops for beginners. I have attended the weekly iOS workshops since day 0 (since we're indexing :P), and I have enjoyed it very much. The workshops helped tremendously in getting started with iOS development, and the instructors were very knowledgeable. The semester of MAD culminated in my submission of Perooze to the app store! I hope to still be involved with MAD for the rest of my time at UT!</p>
       <img src="">
     </div>
-
+    </div>
   </section>
+
+  <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h3><strong>Contact</strong>
+                    </h3>
+                    <p>10023 Estancia Lane<br>Austin, TX 78739</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (512) 228-6916</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:cshi@utexas.edu">cshi@utexas.edu</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.linkedin.com/in/caroline-shi-11147a111"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/caroline.shi.3"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/carorineee"><i class="fa fa-github fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

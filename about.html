@@ -6,14 +6,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>About Me</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/about.css">
     <link rel = "icon" type = "image/png"
     href = "http://i.ytimg.com/vi/r97Z1Gx2KM4/hqdefault.jpg">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Bitter:400,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html">
+                    <i class="fa fa-home"></i>  <span class="light">Home</span>
+                </a>
+            </div>
+             <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#section-contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
+    <section id="about-wrapper">
+      <div class="container">
+        <div class="about-content">
+            <h1>Caroline who?</h1>
+            <div class="row">
+              <div class="col-lg-5">
+                <h3>Caroline Shi is not just a software developer.</h3>
+                <h4>She is <strong><em>ambitious</em></strong> and <strong><em>motivated</em></strong>, and she completes whatever she sets her mind to.</h4>
+                <div id="text">
+                <p>While I'm not technically a computer science major (yet), I am more driven than many actual computer science majors. To me, programming is not a burden at all -- it is something I happily do in my free time. </p>
+
+                <p>About being an Undeclared major: It took some time, but I finally realized that computer science is where my passion lies this past summer. Since then, I have worked tirelessly on projects and have attended hack events non-stop, and I have loved every second of it. </p>
+
+                <p>It was tough juggling 16 hours while making progress in computer science on my own during this past semester as a Freshman. But it was so worth it. I started out at the beginning of the semester not knowing anything about iOS development, and by the end of November, I had released an app on the App Store. I attended my first Hackathon, HackTX, and worked on the front end of our web app on my own. I recently finished a Python script that simulates voting on an online poll using Requests, BeautifulSoup, and a proxy API. I even completed a course on Udemy about Data Structures and Algorithms in Java during the semester. To make things even better, I managed to pull all As!</p>
+
+                <p>However, I won't stop here. I will continue to work as hard as I do even if I do manage to transfer into CS this year because I want to use technology to make people's lives easier. My app helps people search for words in documents while the web app I helped design benefits students by helping them keep track of due dates.</p>
+
+                <p>If you would like to contact me, please see the contact section. Thank you very much!</p>
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <img src="">
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="interests">
+        <div class="container">
+            <h3>What I like to do besides program...</h3>
+            <div="row">
+              <div class="tags">
+                  <i class="fa fa-tag tag"> <span id="tag-text"> Guitar </span> </i>
+                  <i class="fa fa-tag tag"> <span id="tag-text"> Drums </span></i>
+                  <i class="fa fa-tag tag"> <span id="tag-text"> Piano </span></i>
+                  <i class="fa fa-tag tag"> <span id="tag-text"> Clarinet </span></i>
+                  <i class="fa fa-tag tag"> <span id="tag-text"> Alto Sax </span></i>
+                  <i class="fa fa-tag tag"> <span id="tag-text"> Ukulele </span></i>
+                  <i class="fa fa-tag tag"> <span id="tag-text"> Read Read Read! </span></i>
+                  <i class="fa fa-tag tag"> <span id="tag-text"> Quentin Tarantino Films </span></i>
+                  <i class="fa fa-tag tag"> <span id="tag-text"> Philosophical Musings </span></i>
+                  <i class="fa fa-tag tag"> <span id="tag-text"> Listen to Father John Misty covers of Taylor Swift in the style of Lou Reed </span></i>
+                  <i class="fa fa-tag tag"> <span id="tag-text"> Attend Social Justice Events (BlackLivesMatter, Pride, etc.) </span></i>
+              </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h3><strong>Contact</strong>
+                    </h3>
+                    <p>10023 Estancia Lane<br>Austin, TX 78739</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (512) 228-6916</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:cshi@utexas.edu">cshi@utexas.edu</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.linkedin.com/in/caroline-shi-11147a111"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/caroline.shi.3"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/carorineee"><i class="fa fa-github fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     
 
