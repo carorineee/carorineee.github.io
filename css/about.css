@@ -2,11 +2,12 @@ body {
 	font-family: Bitter;
 }
 
-#about-wrapper {
-	background: #ADD100; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #ADD100 , #7B920A); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #ADD100 , #7B920A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
-}
+/*#about-wrapper {
+	background: #ADD100;
+	background: -webkit-linear-gradient(to left, #ADD100 , #7B920A); 
+	background: linear-gradient(to left, #ADD100 , #7B920A); 
+}*/
+
 .navbar {
    background-color: transparent;
    background: transparent;
@@ -20,17 +21,27 @@ body {
 	color: #F5F0FF;
 	font-size: 1.75rem;
 }
+/*About Me section*/
 
+#about-wrapper {
+	background: url(../images/aboutphoto5.jpg);
+	background-size: cover;
+}
 .about-content {
 	padding-top: 18%;
 	padding-bottom: 5%;
+	color: white;
 }
 .about-content h1 {
-	font-size: 8rem;
+	font-size: 9.5rem;
 }
-#text {
+.about-content p {
 	text-indent: 40px;
 	padding-top: 4%;
+	font-size: 1.4rem;
+}
+.col-lg-5 {
+	background-color: rgba(192,192,192,0.85);
 }
 
 /*Besides Programming*/
@@ -41,6 +52,7 @@ body {
 	padding: 8%;     
 	padding-top: 5%;
 }
+
 .tags {
 	font-size: 2.7rem;
 }
@@ -49,6 +61,8 @@ body {
 }
 #tag-text {
 	font-family: Bitter;
+	color: #F5F0FF;
+	/*color: #90E1FC;*/
 }
 
 /*Footer*/

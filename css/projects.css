@@ -1,7 +1,9 @@
 body {
-	background-color: #19E0E0;
 	font-family: Bitter;
 	padding-top: 4%;
+}
+h1 {
+	font-size: 7rem;
 }
 .navbar {
    background-color: transparent;
@@ -17,7 +19,27 @@ body {
 	font-size: 1.75rem;
 }
 
+/*Projects*/
+#votebot {
+
+}
+
+#perooze {
+
+}
+
+#hacktx {
+
+}
+/*Organizations*/
+#orgs {
+	background-color: ;
+}
+
 /*Footer*/
+footer {
+	background-color: white;
+}
 footer .container {
 	height: 30rem;
 	padding: 2%;
