@@ -1,6 +1,5 @@
 body {
 	font-family: Bitter;
-	padding-top: 4%;
 }
 h1 {
 	font-size: 7rem;
@@ -18,35 +17,59 @@ p {
 } 
 .page-scroll {
 	font-family: Montserrat;
-	color: #F5F0FF;
+	/*color: #F5F0FF;*/
+	color: black;
 	font-size: 1.75rem;
+}
+
+/*Header */
+
+#header {
+	background-image: url(../images/swirl_pattern.png);
+	height: 30rem;
+}
+#header h1 {
+	padding-top: 15%;
 }
 
 /*Projects*/
 #votebot {
-	background-color: #6DF7E0;
-	height: 35rem;
+	background-color: #15EDAC;
+	/*height: 35rem;*/
 	padding-top: 4%;
+	padding-bottom: 4%;
 }
 #votebot img{
 	width: 100%;
 	border: 2px solid white;
+	border-radius: 3px;
 }
 #perooze {
-	/*background-color: #5296D9;*/
-	background-color: white;
-	height: 55rem;
-	padding-top: 5%;
+	height: 50rem;
+	padding-top: 4%;
 }
-#perooze img {
-	width: 40%;
+#perooze #apple-logo {
+	width: 60%;
 }
+#perooze #perooze-logo {
+	width: 23%;
+	padding-left: 3%;
+}
+.screen {
+	width: 30%;
+	padding-right: 2%;
+	float: right;
+}
+
 #hacktx {
 	background-color: #1548ED;
 	padding: 4%;
 }
 #hacktx a, #hacktx h3, #hacktx p {
 	color: white;
+}
+#hacktx img {
+	width: 95%;
 }
 
 /*Organizations*/

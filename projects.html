@@ -18,13 +18,10 @@
    
   </head>
   <body>
-    <!-- Navigation -->
+     <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
                 <a class="navbar-brand page-scroll" href="index.html">
                     <i class="fa fa-home"></i>  <span class="light">Home</span>
                 </a>
@@ -50,11 +47,13 @@
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
-      </nav>
+    </nav>
 
-    <div class="container">
-      <h1>Projects</h1>
-    </div>
+    <section id="header">
+      <div class="container">
+         <h1>Projects</h1>
+      </div>
+    </section>
 
     <section id="votebot">
       <div class="container">
@@ -72,15 +71,18 @@
      <section id="perooze">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-5">
             <h3>Perooze (November 2015) </h3>
             <p>Perooze is an iOS app I built that implements Google's Tesseract OCR to make searching for specific words in a text easier. It's sort of like a real life control find. The user takes a picture of a piece of text, and the app turns the words into digital form. Then, the user can enter a word to search for, and the app will highlight where the word is in the text. This was my very first exposure to iOS development, and it was such a great learning experience. It is currently on the iOS App Store. </p>
             <br>
-            <img src="images/peroozelogo.png">
-            <img src="images/appstore.svg">
+            <!-- <img src="images/peroozelogo.png"> -->
+            <img src="images/appstore.svg" id="apple-logo">
+            <img src="images/peroozelogo.png" id="perooze-logo">
           </div>
-          <div class="col-lg-6">
-            <img src="images/screenshot2.png">
+          <div class="col-lg-7">
+              <img src="images/screenshot4.png" class="screen">
+              <img src="images/screenshot3.png" class="screen">
+              <img src="images/screenshot2.png" class="screen">
           </div>
         </div>
       </div>
