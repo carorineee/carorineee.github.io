@@ -5,6 +5,9 @@ body {
 h1 {
 	font-size: 7rem;
 }
+p {
+	font-family: Lora;
+}
 .navbar {
    background-color: transparent;
    background: transparent;
@@ -21,20 +24,37 @@ h1 {
 
 /*Projects*/
 #votebot {
-
+	background-color: #6DF7E0;
+	height: 35rem;
+	padding-top: 4%;
 }
-
+#votebot img{
+	width: 100%;
+	border: 2px solid white;
+}
 #perooze {
-
+	/*background-color: #5296D9;*/
+	background-color: white;
+	height: 55rem;
+	padding-top: 5%;
 }
-
+#perooze img {
+	width: 40%;
+}
 #hacktx {
-
+	background-color: #1548ED;
+	padding: 4%;
 }
+#hacktx a, #hacktx h3, #hacktx p {
+	color: white;
+}
+
 /*Organizations*/
 #orgs {
-	background-color: ;
+	background-color: #F5D316;
+	padding: 4%;
 }
+
 
 /*Footer*/
 footer {
