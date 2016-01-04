@@ -36,8 +36,8 @@ p {
 #votebot {
 	background-color: #15EDAC;
 	/*height: 35rem;*/
-	padding-top: 4%;
-	padding-bottom: 4%;
+	padding-top: 3%;
+	padding-bottom: 3%;
 }
 #votebot img{
 	width: 100%;
@@ -45,8 +45,9 @@ p {
 	border-radius: 3px;
 }
 #perooze {
-	height: 50rem;
+	height: 45rem;
 	padding-top: 4%;
+	padding-bottom: 0%;
 }
 #perooze #apple-logo {
 	width: 60%;
@@ -55,9 +56,18 @@ p {
 	width: 23%;
 	padding-left: 3%;
 }
-.screen {
-	width: 30%;
+.image-container {
+	/*position: relative;*/
+}
+#screen1 {
+	width: 40%;
+	height: 100%;
 	padding-right: 2%;
+	float: right;
+}
+#screen2 {
+	width: 39.7%;
+	height: 100%;
 	float: right;
 }
 

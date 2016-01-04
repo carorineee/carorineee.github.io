@@ -25,6 +25,7 @@ body {
 
 #about-wrapper {
 	background: url(../images/aboutphoto5.jpg);
+	background-repeat: no-repeat;
 	background-size: cover;
 }
 .about-content {
