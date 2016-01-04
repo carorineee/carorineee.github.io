@@ -59,15 +59,18 @@ p {
 .image-container {
 	/*position: relative;*/
 }
-#screen1 {
+/*#screen1 {
 	width: 40%;
-	height: 100%;
 	padding-right: 2%;
 	float: right;
 }
 #screen2 {
 	width: 39.7%;
-	height: 100%;
+	float: right;
+}*/
+.screen {
+	width: 30%;
+	padding-right: 2%;
 	float: right;
 }
 
