@@ -33,6 +33,22 @@ p {
 }
 
 /*Projects*/
+
+#demodj {
+	/*background-color: #1548ED;*/
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+/*#demodj a, #demodj h3, #demodj p {
+	color: white;
+}*/
+
+#demodj img {
+	height: 25rem;
+	padding-left: 30%;
+}
+
 #votebot {
 	background-color: #15EDAC;
 	/*height: 35rem;*/
